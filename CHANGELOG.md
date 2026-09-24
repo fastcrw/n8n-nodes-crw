@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/fastcrw/n8n-nodes-crw/compare/v0.2.0...v0.3.0) (2026-09-24)
+
+
+### Features
+
+* add integration tests and CI workflow ([#5](https://github.com/fastcrw/n8n-nodes-crw/issues/5)) ([fa6aef4](https://github.com/fastcrw/n8n-nodes-crw/commit/fa6aef45999c25f6839c58bbc23fe10aab5810f0))
+
+
+### Bug Fixes
+
+* **node:** fix catch block indentation in search operation ([b43c164](https://github.com/fastcrw/n8n-nodes-crw/commit/b43c16495574cea2616e8d02e9ae7f9ffb2f0f54))
+* point repository links at the fastcrw org ([51a77f2](https://github.com/fastcrw/n8n-nodes-crw/commit/51a77f2023f1caa48d371e36c08771ea2a8630bc))
+
 ## [0.2.0](https://github.com/us/n8n-nodes-crw/compare/v0.1.3...v0.2.0) (2026-04-02)
 
 
