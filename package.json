@@ -17,10 +17,10 @@
     "url": "https://fastcrw.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/us/crw",
+  "homepage": "https://github.com/fastcrw/crw",
   "repository": {
     "type": "git",
-    "url": "https://github.com/us/n8n-nodes-crw.git"
+    "url": "https://github.com/fastcrw/n8n-nodes-crw.git"
   },
   "main": "dist/nodes/Crw/Crw.node.js",
   "files": [

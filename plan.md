@@ -53,10 +53,10 @@ n8n-nodes-crw/
     "ai-agent"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/us/crw",
+  "homepage": "https://github.com/fastcrw/crw",
   "repository": {
     "type": "git",
-    "url": "https://github.com/us/n8n-nodes-crw.git"
+    "url": "https://github.com/fastcrw/n8n-nodes-crw.git"
   },
   "main": "dist/nodes/Crw/Crw.node.js",
   "files": ["dist"],
@@ -581,7 +581,7 @@ N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
 ## 9. Repository Strategy
 
 **Option A (recommended): Dedicated repository**
-- `github.com/us/n8n-nodes-crw`
+- `github.com/fastcrw/n8n-nodes-crw`
 - Clean separation, easier for n8n community contributors
 - Standard for community nodes (Firecrawl, Neon, etc. all use separate repos)
 
@@ -589,7 +589,7 @@ N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
 - `crw/packages/n8n-nodes-crw`
 - Tighter coupling, harder for n8n-only contributors to navigate
 
-**Recommendation:** Option A. Create `github.com/us/n8n-nodes-crw` with its own CI, npm publishing, and README. Link back to main CRW repo and fastcrw.com.
+**Recommendation:** Option A. Create `github.com/fastcrw/n8n-nodes-crw` with its own CI, npm publishing, and README. Link back to main CRW repo and fastcrw.com.
 
 ---
 
