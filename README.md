@@ -1,6 +1,6 @@
 # n8n-nodes-crw
 
-[n8n](https://n8n.io/) community node for [CRW](https://github.com/us/crw) — the open-source web scraper built for AI agents.
+[n8n](https://n8n.io/) community node for [CRW](https://github.com/fastcrw/crw) — the open-source web scraper built for AI agents.
 
 Scrape, crawl, and extract web data directly in your n8n workflows. Works with both self-hosted CRW and [fastcrw.com](https://fastcrw.com) cloud.
 
@@ -38,7 +38,7 @@ environment:
 ### Option B: Self-hosted with binary (free, no limits)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/us/crw/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/fastcrw/crw/main/install.sh | sh
 crw  # starts on http://localhost:3000
 ```
 
@@ -50,7 +50,7 @@ crw  # starts on http://localhost:3000
 ### Option C: Self-hosted with Docker
 
 ```bash
-docker run -d -p 3000:3000 ghcr.io/us/crw:latest
+docker run -d -p 3000:3000 ghcr.io/fastcrw/crw:latest
 ```
 
 Same credentials as Option B.
@@ -124,7 +124,7 @@ N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
 
 ## Links
 
-- [CRW GitHub](https://github.com/us/crw)
+- [CRW GitHub](https://github.com/fastcrw/crw)
 - [fastcrw.com](https://fastcrw.com)
 - [CRW REST API Docs](https://fastcrw.com/docs/rest-api)
 - [n8n Community Nodes](https://docs.n8n.io/integrations/community-nodes/)
